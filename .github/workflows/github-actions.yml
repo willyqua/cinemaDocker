@@ -1,0 +1,11 @@
+name: Test Action
+on:
+  push:
+
+jobs:
+  Mon-premier-test:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "j'effectue un test"
+      -name: je lis mes fichier
+      run: ls
